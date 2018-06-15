@@ -1,0 +1,21 @@
+div{
+    text-align: center;
+}
+h1{
+    font-size: 1.5em;
+}
+#firstname{
+    font-weight: lighter;
+}
+.lastname{
+    font-weight: bolder
+}
+p{
+    color: blue;
+    font-size: 0.8em;
+}
+body{
+    font-family: tahoma;
+    font-size: 12pt;
+    width: 80%;
+}
