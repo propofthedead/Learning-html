@@ -3,10 +3,13 @@
 <head>
     <title>Side by Side Divs</title>
     <style>
+        div{
+            border: 3px solid blue;
+        }
         #leftDiv, #rightDiv{
             width: 49%;
             display: inline-block;
-            border: 1px solid blue;
+            
         }
         #rightDiv{
             text-align: right;
@@ -20,10 +23,12 @@
     <div id = "rightDiv">
         <p>This is the right div</p>
     </div>
-    <div>
+    <div style=" padding: 25px;
+                margin: 20px 0;">
         <p>
             This div should not be side by side
         </p>
+        <p>This is another paragraph</p>
     </div>
 </body>
 </html>
