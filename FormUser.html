@@ -11,15 +11,15 @@
 <body>
     <form name ="formUser" method="get">
         <label>UserName: </label><input type="text" name= "userName" required>
-        <label>Password: </label><input type="password" name= "Password" required>
+        <label>Password: </label><input type="password" name= "Password" required><br/>
         <label>FirstName: </label><input type="text" name= "firstName" required>
-        <label>LastName: </label><input type="text"  name="LastName" required>
+        <label>LastName: </label><input type="text"  name="LastName" required><br/>
         <label>phone </label><input type="tel" name= "phone"><br/>
         <label>email: </label><input type="text" name="Email"><br/>
-        <label>are you a reviewer? </label><input type="radio" name="true reviewer?" value="true"><br/>
-                                            <input type="radio" name="false reviewer?" value="false"><br/>
-        <label>Are you an Admin?</label><input type="radio" name="true admin?" value="true"><br/>
-                                        <input type="radio" name="false admin?" value="false"><br/>
+        <label>are you a reviewer? </label><input type="checkbox" name="true reviewer?" value="true"><br/>
+                                            
+        <label>Are you an Admin?</label><input type="checkbox" name="true admin?" value="true"><br/>
+                                        
         <button onclick="console.log('Username '+ formUser.userName.value+ ' Pass word '+formUser.Password.value+ ' First Name '+ formUser.firstName.value + 'Last Name '+formUser.lastName.value)">Click me!</button>
     </form>
 </body>
